@@ -1,0 +1,225 @@
+.title{
+    color: rgba(82, 82, 82, 0.65)
+}
+
+.container{
+
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 1px solid rgba(82, 82, 82, 0.65);
+}
+
+.pannel{
+    position: absolute;
+    width: 60%;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input_area{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 50px 0;
+}
+.input_area > .input_box{
+    width: 100%;
+    height: 50px;
+    font-size: 28px;
+    color: rgba(82, 82, 82, 0.65);
+    border: 1px solid rgba(82, 82, 82, 0.65);
+    outline: none;
+    margin-right: 20px;
+}
+
+.input_area > .copy_btn{
+    width: 90px;
+    background-color: white;
+    border: 1px solid rgba(82, 82, 82, 0.65);
+    font-size: 17px;
+    color: #707070;
+    outline: none;
+}
+.input_area > .copy_btn:hover{
+    background-color: rgba(216, 214, 214, 0.85);
+}
+
+
+.input_area > .reload_btn{
+    width: 90px;
+    background-color: white;
+    border: 1px solid rgba(82, 82, 82, 0.65);
+    font-size: 24px;
+    color: #707070;
+    outline: none;
+    margin-right: 10px;
+}
+
+.input_area > .reload_btn:hover{
+    background-color: rgba(216, 214, 214, 0.85);
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.password_length_area{
+    width: 200px;
+}
+.password_length_area label{
+    color: #707070;
+}
+
+.password_type_area{
+    width: 200px;
+
+}
+
+.password_type_area input{
+    margin: 10px;
+}
+
+
+
+.password_length {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 3px;
+    border-radius: 5px;
+    background: #000000;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .password_length:hover {
+    opacity: 1;
+  }
+  
+  .password_length::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: .5px .5px 2px 2px rgba(41, 41, 41, 0.65);
+    cursor: pointer;
+  }
+  
+  .password_length::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+
+
+
+/* The container */
+.checkbox_container {
+    color: #707070;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbox_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkbox_container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkbox_container input:checked ~ .checkmark {
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkbox_container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkbox_container .checkmark:after {
+    left: 5px;
+    top: -10px;
+    width: 15px;
+    height: 25px;
+    border: solid rgba(82, 82, 82, 0.85);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+
+.save_to_file_area{
+    margin: 25px 0;
+    width: 100%;
+
+    text-align: center;
+}
+
+.save_to_file_area input{
+    width: 200px;
+    height: 45px;
+    font-size: 23px;
+    color: #707070;
+    background-color: white;
+    border: 1px solid rgba(82, 82, 82, 0.65);
+    outline: none;
+    margin-right: 20px;
+}
+
+.save_to_file_area input:hover{
+    background-color: rgba(216, 214, 214, 0.85);
+}
+
+.password_length_value{
+    margin: 15px 0;
+    width: 30px;
+}

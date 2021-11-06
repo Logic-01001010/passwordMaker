@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="./style.css">
+
+    
+    <title>PasswordMaker</title>
+</head>
+<body>
+    
+    <h1 class="title">pa$$w0rdMaker</h1>
+
+    <div class="container">
+
+        <div class="pannel">
+                
+            <div class="input_area">
+                <input type="text" class="input_box">
+                <input type="button" value="⟳" class="reload_btn">
+                <input type="button" value="Copy" class="copy_btn">
+            </div>
+
+            <div class="options">
+                <div class="password_length_area">
+                    <label>password Length</label>
+                    <input type="range" name="" id="" min="0" max="100" value="8" class="password_length"><input type="number" min="0" max="100" class="password_length_value" value="8" >
+                </div>
+
+                <div class="password_type_area">
+        
+                    <label class="UpperCase checkbox_container">UpperCase
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="LowerCase checkbox_container">LowerCase
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="Numbers checkbox_container">Numbers
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+                      <label class="Symbols checkbox_container">Symbols
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                      </label>
+
+                </div>
+            </div>
+
+            <div class="save_to_file_area">
+                <input type="button" value="Save to File">
+            </div>
+            
+        </div>
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
